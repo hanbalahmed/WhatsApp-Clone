@@ -1,0 +1,29 @@
+.sidebarChat {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #c2baba;
+}
+
+.sidebarChat:hover {
+  background-color: #aaa5a5;
+  transition: 0.2s;
+}
+
+.sidebarChat__info > h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.sidebarChat__info {
+  margin-left: 15px;
+}
+
+#app {
+  background-color: rgb(7, 7, 48);
+  color: whitesmoke;
+}
+
+#app:hover {
+  color: cornflowerblue;
+}
